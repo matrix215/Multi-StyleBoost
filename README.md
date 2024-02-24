@@ -1,4 +1,4 @@
-# multi-boost
+# Multi-StyleBoost
 
 This is a PyTorch implementation of the paper "Multi-StyleBoost"
 
