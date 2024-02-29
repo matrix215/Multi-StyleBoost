@@ -22,13 +22,19 @@ perceptual fidelity metrics, such as FID, KID, and CLIP scores.
 
 ![multi-singel](https://github.com/matrix215/Multi-StyleBoost/assets/101815603/5d94f816-15c2-42bf-a35e-0f160a591e6d)
 
-# Requirement
-- Use requirements.txt
-- I used NVIDIA A5000 GPU x4
+# Result
+All our results are based on fine-tuning stable-diffusion-v1-5 model. We show results on various categories of images, including scene, person, and style, and with a varying number of training samples. For more generations and comparisons with concurrent methods, please refer to our paper.
 
-# How to Start
--First 
+![comparison (1)](https://github.com/matrix215/Multi-StyleBoost/assets/101815603/dba39957-8b98-4279-b3d4-1269d519d98a)
+
+# Requirement
+- NVIDIA A5000 GPU 
+
+# Getting Started
 ```bash
-  python training_multi.py
+  git clone https://github.com/matrix215/Multi-StyleBoost
+  cd Multi-StyleBoost
+  conda env create -f environment.yaml
+  conda activate dream
 ```
 
