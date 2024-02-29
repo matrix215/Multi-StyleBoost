@@ -27,14 +27,37 @@ All our results are based on fine-tuning stable-diffusion-v1-5 model. We show re
 
 ![comparison (1)](https://github.com/matrix215/Multi-StyleBoost/assets/101815603/dba39957-8b98-4279-b3d4-1269d519d98a)
 
-# Requirement
+## Requirement
 - NVIDIA A5000 GPU 
 
-# Getting Started
+## Getting Started
 ```bash
   git clone https://github.com/matrix215/Multi-StyleBoost
   cd Multi-StyleBoost
   conda env create -f environment.yaml
   conda activate dream
 ```
+## Multi-StyleBoost training
+```bash
+  concepts_list = [
+        {
+            "instance_prompt":      f"zwx style",
+            "class_prompt":         "style",
+            
+            "instance_data_dir":    f"/home/kkko/backup/capston_design/content/data/{instance_style}",
+            "class_data_dir":       f"/home/kkko/backup/capston_design/content/data/{class_img_dic}"
+        },
+        {
+            "instance_prompt2":      f"ukj barn",
+            "class_prompt2":         "barn",
+            
+            "instance_data_dir2":    f"/home/kkko/backup/capston_design/content/data/barn",
+            "class_data_dir2":       f"/home/kkko/backup/capston_design/content/data/re_barn"
+        }
+    ]
+  ```
+Make two concepts using a unique token. like a zwx and ukj
+
+
+
 
