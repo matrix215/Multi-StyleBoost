@@ -1,6 +1,6 @@
 # Multi-StyleBoost
 
-## This is a PyTorch implementation of the paper "Multi-StyleBoost"
+## Official PyTorch implementation of the paper "Multi-StyleBoost"
 
 Recent advancements in text-to-image models, such as Stable Diffusion, have demonstrated their
 ability to synthesize visual images through natural language prompts. One approach of personalizing text-
